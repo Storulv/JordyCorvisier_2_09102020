@@ -12,7 +12,7 @@ body{
     width: 100%;
 }
 
-h1, h2, h3, p, span {
+h1, h2, h3, p, span, li {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -34,6 +34,38 @@ p {
 
 button {
     font-weight: 500;
+}
+
+.navSection {
+    display: flex;
+}
+
+.navSection nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 75px;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.navSection nav a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    border-bottom: 2px solid #F2F2F2;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.inscript-button {
+    position: absolute;
+    text-decoration: none;
+    top: 25px;
+    right: 15px;
+    color: #0065FC;
+    font-weight: bold;
 }
 
 .researchBar {
@@ -231,29 +263,79 @@ label {
 
 .zone-figure {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    width: 100%;
     overflow: hidden;
-    width: 93%;
-    height: 150px;
-    margin: 10px;
     background-color: white;
-    border-top-left-radius: 10px 10px;
-    border-bottom-left-radius: 10px 10px;
-    border-top-right-radius: 10px 10px;
-    border-bottom-right-radius: 10px 10px;
+    border-radius: 10px 10px;
+    margin-left: 0%;
 }
 
 .zone-img {
-    position: relative;
-    transform: translateY(-25%);
+    width: 100%;
+    height: 115px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .descript-zone-section {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 0px 0px 10px;
+    vertical-align: middle;
+}
+
+.descript-zone-section h3 {
+    margin-bottom: -10px;
+}
+
+.descript-zone-section p {
+    margin-bottom: 2px;
 }
 
 .note-descript-zone-section{
-    margin-left: -10px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.activity {
+    background-color: white;
+}
+
+.activity-fig {
+    background-color: white;
+    width: 90%;
+    margin: 5%;
+    margin-bottom: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 7px 10px var(--color-grey);
+}
+
+.activity-fig img {
+    width: 100%;
+    height: 115px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.activity-fig h3 {
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: var(--color-grey);
+    padding: 20px;
+}
+
+.footer-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.footer-ul li {
+    margin: 7px;
 }
