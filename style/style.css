@@ -7,8 +7,8 @@
 }
 
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     width: 100%;
 }
 
@@ -19,17 +19,17 @@ h1, h2, h3, p, span, li {
 /*MOBILE FIRST*/
 h1, h2 {
     font-size: 1.3em;
-    margin-left: 10px;
+    margin-left: 2%;
 }
 
 h3 {
     font-size: 1em;
-    margin-left: 10px;
+    margin-left: 2%;
 }
 
 p {
     font-size: 0.8em;
-    margin-left: 10px;
+    margin-left: 2%;
 }
 
 button {
@@ -44,24 +44,24 @@ button {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 75px;
+    margin-top: 10%;
     padding: 0;
     width: 100%;
-    height: 50px;
+    height: 5%;
 }
 
 .navSection nav a {
     font-family: 'Raleway', sans-serif;
+    font-size: medium;
     text-decoration: none;
     border-bottom: 2px solid #F2F2F2;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 1%;
 }
 
 .inscript-button {
     position: absolute;
-    text-decoration: none;
     top: 25px;
     right: 15px;
     color: #0065FC;
@@ -102,14 +102,14 @@ button {
 label {
     display: flex;
     align-items: center;
-    margin-right: 5px;
+    margin-right: 1%;
 }
 
 .filterSection {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
@@ -212,7 +212,7 @@ label {
 }
 
 .popular-section {
-    background-color: var(--color-alt);
+    background-color: var(--color-grey);
     padding: 10px;
 }
 
@@ -238,11 +238,11 @@ label {
 }
 
 .descript-popular-section {
-    margin: 0px 0px 0px 10px;
+    margin-left: 5%;
 }
 
 .note-descript-popular-section{
-    margin-left: 20px;
+    margin-left: 5%;
 }
 
 .fa-star{
@@ -257,8 +257,8 @@ label {
 }
 
 .zone-section{
-    padding: 10px;
-    background-color: var(--color-grey);
+    padding: 2%;
+    background-color: white;
 }
 
 .zone-figure {
@@ -268,7 +268,8 @@ label {
     overflow: hidden;
     background-color: white;
     border-radius: 10px 10px;
-    margin-left: 0%;
+    margin-left: 0;
+    box-shadow: 0px 7px 10px var(--color-grey);
 }
 
 .zone-img {
@@ -279,7 +280,7 @@ label {
     border-top-right-radius: 10px;
 }
 
-.descript-zone-section {
+/* .descript-zone-section {
     vertical-align: middle;
 }
 
@@ -290,14 +291,14 @@ label {
 .descript-zone-section p {
     margin-bottom: 2px;
 }
-
+ */
 .note-descript-zone-section{
-    margin-left: 15px;
-    margin-bottom: 5px;
+    margin-left: 4%;
+    margin-bottom: 2%;
 }
 
 .activity {
-    background-color: white;
+    padding-top: 5px;
 }
 
 .activity-fig {
@@ -326,7 +327,7 @@ label {
 
 footer {
     background-color: var(--color-grey);
-    padding: 20px;
+    padding: 2%;
 }
 
 .footer-ul {
@@ -338,4 +339,29 @@ footer {
 
 .footer-ul li {
     margin: 7px;
+}
+
+/* Desktop & tablet */
+
+@media screen and (min-width: 480px) {
+
+    .inscript-button {
+        position: static !important;
+    }
+
+    .navSection {
+        display: flex;
+
+    }
+
+.pop-and-heb-section {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: -15%;
+}
+
+.pop-and-heb-section .zone-section {
+    background-color: var(--color-grey);
+}
+
 }
