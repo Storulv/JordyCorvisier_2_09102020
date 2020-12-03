@@ -36,10 +36,6 @@ button {
     font-weight: 500;
 }
 
-.navSection {
-    display: flex;
-}
-
 .navSection nav {
     display: flex;
     justify-content: space-evenly;
@@ -211,6 +207,11 @@ label {
     border-radius: 50%;
 }
 
+main {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .popular-section {
     background-color: var(--color-grey);
     padding: 10px;
@@ -350,18 +351,20 @@ footer {
     }
 
     .navSection {
-        display: flex;
-
+        position: absolute;
+        top: -1%;
+        right: 10%;
     }
 
-.pop-and-heb-section {
-    display: flex;
-    flex-direction: row-reverse;
-    margin-left: -15%;
+    .navSection nav a {
+        margin-left: 30%;
+        border-bottom: none;
+    }
+
+main {
+    flex-direction: row;
 }
 
-.pop-and-heb-section .zone-section {
-    background-color: var(--color-grey);
-}
+
 
 }
