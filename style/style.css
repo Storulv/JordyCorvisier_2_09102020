@@ -354,10 +354,7 @@ header h1 {
 }
 
 /* CARDS_3 */
-.cards_3,
-.activities_component,
-.activities_component_1,
-.activities_component_2 {
+.cards_3, .activities_component, .activities_component_1, .activities_component_2 {
     display: flex;
     flex-direction: column;
 }
@@ -418,8 +415,8 @@ header h1 {
 /* FOOTER */
 footer {
     display: flex;
-    flex-direction: column;
-    padding-left: 25px;
+    flex-direction: row;
+    width: 100%;
     background-color: var(--color-grey);
 }
 
@@ -555,10 +552,6 @@ footer ul {
 
     .activities_component_1_1, .activities_component_1_2 {
         margin-bottom: 20px;
-    }
-        
-    footer {
-        flex-direction: row;
     }
 
     footer section {
