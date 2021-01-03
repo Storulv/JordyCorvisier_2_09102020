@@ -415,8 +415,9 @@ header h1 {
 /* FOOTER */
 footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
+    padding-left: 7%;
     background-color: var(--color-grey);
 }
 
@@ -553,6 +554,11 @@ footer ul {
     .activities_component_1_1, .activities_component_1_2 {
         margin-bottom: 20px;
     }
+    
+    footer {
+        flex-direction: row;
+        padding-left: 2%;
+    }
 
     footer section {
         flex: 0.33;
@@ -568,6 +574,10 @@ footer ul {
     .global_hostings, .populary {
         background-color: var(--color-grey);
         border-radius: 25px;
+    }
+
+    .cards_1 {
+        padding: 0 15%;
     }
 
     .global_hostings {
@@ -611,10 +621,6 @@ footer ul {
 
 /* DESKTOP 1440px */
 @media screen and (min-width: 1440px) {
-    body {
-        margin: auto;
-        width: 1440px;
-    }
 
     header {
         margin-left: 25px;
