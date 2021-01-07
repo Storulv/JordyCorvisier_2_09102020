@@ -144,7 +144,7 @@ header h1 {
     margin-bottom: 0.5rem;
     cursor: pointer;
     box-shadow: inset 0 0 var(--color-alt);
-	transition: 0.5s;
+    transition: 0.5s;
 }
 
 .search_filter_category_icon {
@@ -438,17 +438,17 @@ footer ul {
     .search_form_submit_input_2{
         display: none;
     }
-
+    
     .search_filters section {
         display: flex;
         flex-wrap: wrap;
     }
-
+    
     .search_filter_category {
         width: 250px;
         margin-right: 25px;
     }
-
+    
     .populary {
         align-items: center;
     }
@@ -456,19 +456,19 @@ footer ul {
     .charts h2 {
         margin: 0px 25px 0px 25px;
     }
-
+    
     .cards_1 {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
     }
-
+    
     .show_more {
         align-content: flex-start;
         margin-left: 25px;
     }
-
+    
 }
 
 /* TABLET */
@@ -484,7 +484,7 @@ footer ul {
     .navbar_link:hover {
         border-top: 2px solid var(--color-main);
     }
-
+    
     nav {
         align-content: center;
         justify-content: space-between;
@@ -504,11 +504,11 @@ footer ul {
         justify-content: center;
         width: 150px;
     }
-
+    
     .navbar_signup {
         position: static;
     }
-
+    
     .search_filters div {
         flex-direction: row;
         flex-wrap: wrap;
@@ -517,40 +517,40 @@ footer ul {
     .search_form_submit_input_2 {
         display: none;
     }
-
+    
     .global_hostings h2 {
         margin: 25px 0 25px 25px;
     }
-
+    
     .populary_component {
         width: 420px;
     }
-
+    
     .populary_component img {
         width: 200px;
     }
-
+    
     .main_activities {
         width: auto;
     }
-
+    
     .cards_3 {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
-
+    
     .activities_component {
         height: 440px;
         width: 325px;
         margin: 20px 20px 0 0;
     }
-
+    
     .activities_component img {
         height: 390px;
     }
-
+    
     .activities_component_1_1, .activities_component_1_2 {
         margin-bottom: 20px;
     }
@@ -559,7 +559,7 @@ footer ul {
         flex-direction: row;
         padding-left: 2%;
     }
-
+    
     footer section {
         flex: 0.33;
     }
@@ -570,31 +570,31 @@ footer ul {
     .container_1 {
         flex-direction: row;
     }
-
+    
     .global_hostings, .populary {
         background-color: var(--color-grey);
         border-radius: 25px;
     }
-
+    
     .cards_1 {
         padding: 0 15%;
     }
-
+    
     .global_hostings {
         flex: 0.8;
         margin: 0 25px 0 25px;
     }
-
+    
     .populary {
         flex: 0.2;
         margin: 0 25px 0 0;
         justify-content: space-between;
     }
-
+    
     .hostings_component, .hostings_component img {
         width: 235px;
     }
-
+    
     .hostings_description {
         margin: 0;
         padding: 5px 0 5px 5px;
@@ -602,11 +602,11 @@ footer ul {
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
     }
-
+    
     .populary_component {
         width: 335px;
     }
-
+    
     .populary_component img {
         width: 125px;
     }
@@ -621,36 +621,44 @@ footer ul {
 
 /* DESKTOP 1440px */
 @media screen and (min-width: 1440px) {
-
+    
     header {
         margin-left: 25px;
     }
-
+    
     .main_activities {
         margin: 0 15px 25px 0px;
     }
-
+    
     .main_activities h2 {
         margin: 25px 0px 0px 50px;
     }
-
+    
     .cards_3 {
         margin: 0;
     }
-
+    
     .activities_component, .activities_component img {
         width: 300px;
     }
-
+    
     .activities_component_1_1 img {
         height: 175px;
     }
-
+    
     .activities_component_1_2 {
         margin: 0 15px 0 0;
     }
-
+    
     .activities_component_2_1 {
         margin-bottom: 25px;
     }
 } 
+
+
+/* DESKTOP 2560px */
+@media screen and (min-width: 2560px) {
+    .cards_1 {
+        padding: 0 24%;
+    }
+}
