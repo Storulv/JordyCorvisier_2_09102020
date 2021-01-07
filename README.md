@@ -11,4 +11,4 @@ Enfin, vous avez trouvé votre premier stage en tant que développeur web chez R
     - Votre repository doit être accessible.
 - Un lien vers votre page web hébergée en ligne sur GitHub Pages ou GitLab Pages, pour présenter votre maquette.
 
-JordyCorvisier_2_09102020
+Jordy Corvisier
