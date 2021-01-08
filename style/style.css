@@ -354,7 +354,9 @@ header h1 {
 }
 
 /* CARDS_3 */
-.cards_3, .activities_component, .activities_component_1, .activities_component_2 {
+.cards_3, .activities_component, 
+.activities_component_1, 
+.activities_component_2 {
     display: flex;
     flex-direction: column;
 }
@@ -386,13 +388,17 @@ header h1 {
     border-top-right-radius: 25px;
 }
 
-.activities_component_1, .activities_component_2 {
+.activities_component_1, 
+.activities_component_2 {
     width: 325px;
     height: auto;
     margin: 0;
 }
 
-.activities_component_1_1, .activities_component_1_2, .activities_component_2_1, .activities_component_2_2 {
+.activities_component_1_1, 
+.activities_component_1_2, 
+.activities_component_2_1, 
+.activities_component_2_2 {
     display: flex;
     flex-direction: column;
     width: 325px;
@@ -404,7 +410,10 @@ header h1 {
     transition: 0.3s;
 }
 
-.activities_component_1_1 img, .activities_component_1_2 img, .activities_component_2_1 img, .activities_component_2_2 img {
+.activities_component_1_1 img, 
+.activities_component_1_2 img, 
+.activities_component_2_1 img, 
+.activities_component_2_2 img {
     width: 325px;
     height: 115px;
     object-fit: cover;
@@ -473,11 +482,13 @@ footer ul {
 
 /* TABLET */
 @media screen and (min-width: 768px) {
-    .navbar li, .search_filters div {
+    .navbar li, 
+    .search_filters div {
         display: flex;
     }
     
-    .navbar_link, .navbar_link:hover {
+    .navbar_link, 
+    .navbar_link:hover {
         border-bottom: none;
     }
     
@@ -551,7 +562,8 @@ footer ul {
         height: 390px;
     }
     
-    .activities_component_1_1, .activities_component_1_2 {
+    .activities_component_1_1, 
+    .activities_component_1_2 {
         margin-bottom: 20px;
     }
     
@@ -571,7 +583,8 @@ footer ul {
         flex-direction: row;
     }
     
-    .global_hostings, .populary {
+    .global_hostings, 
+    .populary {
         background-color: var(--color-grey);
         border-radius: 25px;
     }
@@ -591,7 +604,8 @@ footer ul {
         justify-content: space-between;
     }
     
-    .hostings_component, .hostings_component img {
+    .hostings_component, 
+    .hostings_component img {
         width: 235px;
     }
     
@@ -638,7 +652,8 @@ footer ul {
         margin: 0;
     }
     
-    .activities_component, .activities_component img {
+    .activities_component, 
+    .activities_component img {
         width: 300px;
     }
     
